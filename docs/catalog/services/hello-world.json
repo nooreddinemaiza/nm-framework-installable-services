@@ -10,6 +10,10 @@
     "min_version": "3.0.1",
     "max_version": null
   },
+  "php": {
+    "min": "8.1",
+    "max": null
+  },
   "extensions": [],
   "dependencies": [],
   "components": {
@@ -21,11 +25,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/v1.0.0/hello-world-1.0.0.zip",
-    "sha256": "df3c7ffa50b834d16f5412ca00b823f936d6e68b225b7f654ec9ec4ca7cedd19",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/hello-world-v1.0.0/hello-world-1.0.0.zip",
+    "sha256": "d53d5e9ebef5dcc8371e08d7b63a3177ed1eed3bc3d4e603fedb35cd1b297b6c",
     "key_id": "hello-release-2026",
-    "signature": "nOb/fUIh8osCjcMD7+4AhE6sgMgV7b3ZIF17EiSZHl1XJXmFdsd5RNjil0wTBOOgJBaQCMB18inwguHybCDSdFHbpOJ/CsWIj0p5zd3V0uwdXRrITPssqJ3HmMIPP6Q3B4E3rhyXIFzG5gsdNpvfNL4MXkWcSEQvcNYltAOCmylYRQUnC9dANbmcUSPxbBxMHp4vb+VddeRnoyz0f12HB4mRt+QtaqFqTFVzGbLvYdjLKWsOj9di6a4ZwKseUlgWzYU40kCItfA1CawRUkeeazXnmuJIu9P6uCE7Of+cUnHHzKukeWV8axicBB4gWzC4VLq1HPmrZfuWkjMd/SNXZINn9y0ymOz/Gtvv9gEYXkPkd5LjiR0mOc+v5C0u5A3WhWaM8XtWxXAI5hISk8+o3xrN5XEvNjK4AOxxmBgtHsAyW/Nwe7d1+JYQAhPnGbu1UtxlEEKLswoD0VEAqZAuRlV1Na5KswrKbHOvpjyBwsWvLVKKTa1nNdLDg73oXl5l"
+    "signature": "Ac3uJh4CsVxIRUXHdtWuk4CqHv1Wh/Y9x/yq2YQuigEq5xX0CWjtTIAJNW/9H7p6GliRC7CnJ+J+8CXoh0l5jwCxuSHf948QqYxKOuJePlBMQT/IyGdfTCTgxCSKU/IIgVm5AuM2kK05QrlU4dTltXtxb/BMP3ocLlckxA+lQLYac9B9uZPTQtujUE5F8hGBgaLtwNIvi7QHvB8o34Poc23/a2ozKOuHa+tJ4W8JAN4MRNzamQAy1QSvy7O7sx8k27CTcEJShOzT5p1Szqq9fps25RAO/PWduj1ZfEbx+F1hmJpZozRXprsq1Kz4CXQo/bzXd48L6KjlaBsl8nQB4WTvuY4q6TzarjoZ0WrKAQFuOZLuhRbNNPxFPZ09KMkcSt24eIxpjUkt3GEvUMiv0oOGXUY5L4HYt/0fY5YokPXGnvuK/EyC1LDojnkIP2BwgARa/mDNQM0eg4JPEcOxDVb4LIAjCSqHpDE7GGlNfsZC/zpEU5U9Y1EEQBrELu9I"
   },
-  "published_at": "2026-11-22T16:48:59Z",
+  "published_at": "2026-11-22T22:06:43Z",
   "status": "stable"
 }
