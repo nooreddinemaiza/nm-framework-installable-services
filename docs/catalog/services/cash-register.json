@@ -1,0 +1,39 @@
+{
+  "manifest_version": 1,
+  "id": "cash-register",
+  "name": "Service Caisse",
+  "description": "Gestion des caisses, sessions, mouvements, encaissements et remboursements via Sales.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "json"
+  ],
+  "dependencies": [
+    "sales-service"
+  ],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": false
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/cash-register-v1.0.0/cash-register-1.0.0.zip",
+    "sha256": "c5ec4bbea9295c595b8ada06a80a271e270fa71a2d8c6374c51b1071d58d8a0c",
+    "key_id": "hello-release-2026",
+    "signature": "E7jVYMYxn76lOcluXW9znhNlvErZPLCe4W9Yz+2Qtj19Kt8CsHrhAcwK2D6VrTixwHhNuBRpazWNcIXT+RlrpxhZTdR0IUtNo2nkhMKqsG3n9SIAEdhezAuo5pbftqkmTtd35DfR0phGD2j3TJ5ysgtPTHAAQzIFJElhL3DBVw9/mqt9M7sUzm1oMTRp+ADfEJ/Z/YEcdP8iKv2QHnpq55ZIHIrL7rCSyk9OkKbSjsZW25W4IGwbyCL5SkbkbO4CZva07bJdUVatL8PjuVbM8h2mjAMDTDcEtC1P5ZsZDAzUy5VAmqRKZHJWAEkP/LgZWyq8X8yLtNhW8zCiAWCqQnQAf7cF/oWqGs+aqf7TKwp++cBZVPwcEj9U0Shgni26xFKX6ZLliYPshz+mCtgjlMkV1PdUtl39KXzUXOdyAg4/jB4NHURrfyrrD1vpgkkscxt2x/PeKHnVs6uwSENRxVxextaSgpkcFl9vaaWb/m/fwicU/AO1R7jLscmt+gXb"
+  },
+  "published_at": "2026-11-22T22:18:00Z",
+  "status": "stable"
+}
