@@ -1,0 +1,31 @@
+{
+  "package_format": 1,
+  "id": "quotes",
+  "name": "Gestion des devis",
+  "description": "Demandes publiques de devis, suivi commercial, historique et exports.",
+  "version": "1.0.0",
+  "author": "nooreddinemaiza",
+  "namespace": "NM\\Services\\Quotes",
+  "provider": "NM\\Services\\Quotes\\Providers\\QuotesServiceProvider",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "json"
+  ],
+  "dependencies": [
+    "inventory-service"
+  ],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": true
+  }
+}
