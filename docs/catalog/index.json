@@ -1,6 +1,6 @@
 {
-  "catalog_version": 12,
-  "updated_at": "2026-11-22T22:26:22Z",
+  "catalog_version": 13,
+  "updated_at": "2026-11-22T22:26:52Z",
   "services": [
     {
       "id": "articles",
@@ -45,6 +45,10 @@
     {
       "id": "social-auth",
       "manifest": "catalog/services/social-auth.json"
+    },
+    {
+      "id": "translation",
+      "manifest": "catalog/services/translation.json"
     }
   ]
 }
