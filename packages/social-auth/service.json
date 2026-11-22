@@ -1,0 +1,31 @@
+{
+  "package_format": 1,
+  "id": "social-auth",
+  "name": "Authentification sociale",
+  "description": "Connexion OAuth avec Google, Microsoft, GitHub et Facebook, avec association explicite aux comptes locaux.",
+  "version": "1.0.0",
+  "author": "nooreddinemaiza",
+  "namespace": "NM\\Services\\SocialAuth",
+  "provider": "NM\\Services\\SocialAuth\\Providers\\SocialAuthServiceProvider",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "curl",
+    "json",
+    "openssl"
+  ],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": false
+  }
+}
