@@ -1,7 +1,11 @@
 {
-  "catalog_version": 7,
-  "updated_at": "2026-11-22T22:19:39Z",
+  "catalog_version": 8,
+  "updated_at": "2026-11-22T22:20:47Z",
   "services": [
+    {
+      "id": "articles",
+      "manifest": "catalog/services/articles.json"
+    },
     {
       "id": "cash-register",
       "manifest": "catalog/services/cash-register.json"
