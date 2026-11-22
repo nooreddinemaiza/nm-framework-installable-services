@@ -1,0 +1,39 @@
+{
+  "manifest_version": 1,
+  "id": "quotes",
+  "name": "Gestion des devis",
+  "description": "Demandes publiques de devis, suivi commercial, historique et exports.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "json"
+  ],
+  "dependencies": [
+    "inventory-service"
+  ],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": true
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/quotes-v1.0.0/quotes-1.0.0.zip",
+    "sha256": "50ce0163f891adff2c5729895f09d9c2dddc7470d73406b0d4f0ed2e90443560",
+    "key_id": "hello-release-2026",
+    "signature": "jqdBvplBj80jdCoz8iRYn5EmHbMwzgvbyMFh88fTKGyHRGad0XPXXUX2K2DzoD/52RARQVzB6YOr23rPagtygfz84q5ZEDdpMQfZuS5uKmCF4IHD/CoUXF96e/WdlU3ZqvAyqg7fcCvyOs91/KHhHbwSj7L8yfIj90jX9Cy2FAtG8w6Ks3IBCA+nFKXJVKahsiCDUzurVRpuTepdMy3LkE6gAsEEZ7Yty7Pv+oL0lFpZQxWI7UITIxSsEl6fP5732MWkY7zTeTQVE+jdlsUy/u27XSDi6ZlZCPK7KbfZS6VU9WEM42FRS15LjH+sGs/YPl0lFFY/g6bBebiScIv8UyliugrybzmyfbsqBfrpuUAST3RK/2tza9ELk0FRdSxAxlrps4ibaCACpe2cRCguI17nZ8IxrwWNBDeXPPN5pURo4rydjG5kLdshbirRwiS1w/dtl2InbBT8HptxgQP9qUq8I2svntwC9SUXZopmnYNk2ErXiM35NLGeaUjJPunQ"
+  },
+  "published_at": "2026-11-22T22:18:46Z",
+  "status": "stable"
+}
