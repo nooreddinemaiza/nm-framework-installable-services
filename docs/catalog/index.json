@@ -1,6 +1,6 @@
 {
-  "catalog_version": 10,
-  "updated_at": "2026-11-22T22:23:21Z",
+  "catalog_version": 11,
+  "updated_at": "2026-11-22T22:24:46Z",
   "services": [
     {
       "id": "articles",
@@ -21,6 +21,10 @@
     {
       "id": "inventory-service",
       "manifest": "catalog/services/inventory-service.json"
+    },
+    {
+      "id": "messaging",
+      "manifest": "catalog/services/messaging.json"
     },
     {
       "id": "online-payments",
