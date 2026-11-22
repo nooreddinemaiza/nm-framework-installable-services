@@ -1,6 +1,6 @@
 {
-  "catalog_version": 3,
-  "updated_at": "2026-11-22T22:13:30Z",
+  "catalog_version": 4,
+  "updated_at": "2026-11-22T22:16:48Z",
   "services": [
     {
       "id": "hello-world",
@@ -9,6 +9,10 @@
     {
       "id": "inventory-service",
       "manifest": "catalog/services/inventory-service.json"
+    },
+    {
+      "id": "sales-service",
+      "manifest": "catalog/services/sales-service.json"
     }
   ]
 }
