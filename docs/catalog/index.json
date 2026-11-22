@@ -1,6 +1,6 @@
 {
-  "catalog_version": 9,
-  "updated_at": "2026-11-22T22:22:19Z",
+  "catalog_version": 10,
+  "updated_at": "2026-11-22T22:23:21Z",
   "services": [
     {
       "id": "articles",
@@ -9,6 +9,10 @@
     {
       "id": "cash-register",
       "manifest": "catalog/services/cash-register.json"
+    },
+    {
+      "id": "global-search",
+      "manifest": "catalog/services/global-search.json"
     },
     {
       "id": "hello-world",
