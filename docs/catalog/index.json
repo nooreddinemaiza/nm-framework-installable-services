@@ -1,6 +1,6 @@
 {
-  "catalog_version": 6,
-  "updated_at": "2026-11-22T22:18:42Z",
+  "catalog_version": 7,
+  "updated_at": "2026-11-22T22:19:39Z",
   "services": [
     {
       "id": "cash-register",
@@ -17,6 +17,10 @@
     {
       "id": "online-payments",
       "manifest": "catalog/services/online-payments.json"
+    },
+    {
+      "id": "quotes",
+      "manifest": "catalog/services/quotes.json"
     },
     {
       "id": "sales-service",
