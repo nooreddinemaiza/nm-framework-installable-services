@@ -16,6 +16,11 @@ scripts du service sont servis depuis son propre paquet.
 La page Services du framework hôte reste responsable de la sauvegarde de la
 configuration public/tableau de bord.
 
+La migration réutilise la table `global_search_settings` déjà créée par
+l’application hôte lorsqu’elle existe et vérifie que son schéma est compatible.
+Dans le cas contraire, le paquet la crée et garde une marque de propriété afin
+que son retour arrière ne supprime pas une table gérée par l’hôte.
+
 Vérifier la structure :
 
 ```powershell
