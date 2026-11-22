@@ -1,0 +1,40 @@
+{
+  "manifest_version": 1,
+  "id": "online-payments",
+  "name": "Paiements en ligne",
+  "description": "Gestion des fournisseurs de paiement, tentatives, notifications, rapprochements et remboursements.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "openssl",
+    "json"
+  ],
+  "dependencies": [
+    "sales-service"
+  ],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": false
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/online-payments-v1.0.0/online-payments-1.0.0.zip",
+    "sha256": "95375d1f2614b8fd4d973739e5a8882a7e485decae1283ccaae80361ddbc4b7b",
+    "key_id": "hello-release-2026",
+    "signature": "NFu5cj7kXhKIM7to4BKrutIPIMRU16zWapJp5RBo7gkVkzyxGhs9ErZef+nLgmy5wKLUZZrXVAx4uhV9QmqjrERf8ubNkTHGmvXvxeWAU7rBa061zryfZuOJIEDXOSF5I9acVPIluDzf7ZiFfkAyLSztwpG3m3R7Z+e++IAZbjfyYmFXfc63R3Ffkcla/qBp5bnSNpVGsGVuJh6A5LKJWJkMaINLUEWnG3v23smHreEoJBljhkHC37mhBWFDuKk3wcsgCBUzOHcW3OLGCY9klpzh+aMeRE/mTYQpZ8L4SJe6Bjd6GbhRvURStfMq5VB3KUS+vLl4fLNR/YGC7cOi9rw87pKIrIJgnj8tA8sWGa1/Tvahup/dKRzZ+NRzTpGSd/UfHDWmsme0YEclooMP84kKrD3lp4JwCDd0GWw9NaCnlRIMNnWkHD1Jm5U/BD9ti8NMVO8AZLBZDW+ro0O1XLl4OYI/DfiCkY7wVI2U5Mk9Fb3GtYyxz3sZ8PqVyqDb"
+  },
+  "published_at": "2026-11-22T22:16:55Z",
+  "status": "stable"
+}
