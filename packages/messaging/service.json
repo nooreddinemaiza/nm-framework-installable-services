@@ -1,0 +1,30 @@
+{
+  "package_format": 1,
+  "id": "messaging",
+  "name": "Messaging",
+  "description": "Conversations privées et de groupe, messages, accusés de lecture, politiques et médias.",
+  "version": "1.0.0",
+  "author": "nooreddinemaiza",
+  "namespace": "NM\\Services\\Messaging",
+  "provider": "NM\\Services\\Messaging\\Providers\\MessagingServiceProvider",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "fileinfo",
+    "json"
+  ],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": true
+  }
+}
