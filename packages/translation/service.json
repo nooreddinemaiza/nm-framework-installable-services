@@ -1,0 +1,27 @@
+{
+  "package_format": 1,
+  "id": "translation",
+  "name": "Translation",
+  "description": "Visitor language selection and French and Moroccan Arabic interface translations.",
+  "version": "1.0.0",
+  "author": "nooreddinemaiza",
+  "namespace": "NM\\Services\\Translation",
+  "provider": "NM\\Services\\Translation\\Providers\\TranslationServiceProvider",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": false,
+    "views": true,
+    "config": false,
+    "resources": true
+  }
+}
