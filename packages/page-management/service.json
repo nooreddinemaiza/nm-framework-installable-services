@@ -1,0 +1,30 @@
+{
+  "package_format": 1,
+  "id": "page-management",
+  "name": "Page Management",
+  "description": "Gestion de pages publiques, templates, sections, blocs, menus, SEO et révisions.",
+  "version": "1.0.0",
+  "author": "nooreddinemaiza",
+  "namespace": "NM\\Services\\PageManagement",
+  "provider": "NM\\Services\\PageManagement\\Providers\\PageManagementServiceProvider",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "dom",
+    "json"
+  ],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": true
+  }
+}
