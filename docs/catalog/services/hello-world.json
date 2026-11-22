@@ -1,0 +1,31 @@
+{
+  "manifest_version": 1,
+  "id": "hello-world",
+  "name": "Hello World",
+  "description": "Un service de test qui expose une route de bienvenue.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "extensions": [],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": false,
+    "views": false,
+    "config": false,
+    "resources": false
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/v1.0.0/hello-world-1.0.0.zip",
+    "sha256": "df3c7ffa50b834d16f5412ca00b823f936d6e68b225b7f654ec9ec4ca7cedd19",
+    "key_id": "hello-release-2026",
+    "signature": "nOb/fUIh8osCjcMD7+4AhE6sgMgV7b3ZIF17EiSZHl1XJXmFdsd5RNjil0wTBOOgJBaQCMB18inwguHybCDSdFHbpOJ/CsWIj0p5zd3V0uwdXRrITPssqJ3HmMIPP6Q3B4E3rhyXIFzG5gsdNpvfNL4MXkWcSEQvcNYltAOCmylYRQUnC9dANbmcUSPxbBxMHp4vb+VddeRnoyz0f12HB4mRt+QtaqFqTFVzGbLvYdjLKWsOj9di6a4ZwKseUlgWzYU40kCItfA1CawRUkeeazXnmuJIu9P6uCE7Of+cUnHHzKukeWV8axicBB4gWzC4VLq1HPmrZfuWkjMd/SNXZINn9y0ymOz/Gtvv9gEYXkPkd5LjiR0mOc+v5C0u5A3WhWaM8XtWxXAI5hISk8+o3xrN5XEvNjK4AOxxmBgtHsAyW/Nwe7d1+JYQAhPnGbu1UtxlEEKLswoD0VEAqZAuRlV1Na5KswrKbHOvpjyBwsWvLVKKTa1nNdLDg73oXl5l"
+  },
+  "published_at": "2026-11-22T16:48:59Z",
+  "status": "stable"
+}
