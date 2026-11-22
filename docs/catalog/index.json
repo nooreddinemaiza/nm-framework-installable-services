@@ -1,6 +1,6 @@
 {
-  "catalog_version": 8,
-  "updated_at": "2026-11-22T22:20:47Z",
+  "catalog_version": 9,
+  "updated_at": "2026-11-22T22:22:19Z",
   "services": [
     {
       "id": "articles",
@@ -21,6 +21,10 @@
     {
       "id": "online-payments",
       "manifest": "catalog/services/online-payments.json"
+    },
+    {
+      "id": "page-management",
+      "manifest": "catalog/services/page-management.json"
     },
     {
       "id": "quotes",
