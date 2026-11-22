@@ -1,0 +1,38 @@
+{
+  "manifest_version": 1,
+  "id": "page-management",
+  "name": "Page Management",
+  "description": "Gestion de pages publiques, templates, sections, blocs, menus, SEO et révisions.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "dom",
+    "json"
+  ],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": true
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/page-management-v1.0.0/page-management-1.0.0.zip",
+    "sha256": "fa6bc52ed694169b6742358d95b0ca80ecb853cbeadd483df487993f096879c6",
+    "key_id": "hello-release-2026",
+    "signature": "tPXyAFyERzAfp7pvGnz9TGNMHXowGCKahJWG9cAccqCvBB0L3Qnr/gB/fTBtwA4Cbvling6sIs0QttvppHWLRGf/C6lXqL624FbXWkZNIPo5/YjvOHd1p0es/KFAO1mHNWWl8IFOKGsDJ2/3N7Y22kD3VhAUuuqBe0rDJXpDtenp/W3uGTwbbgTZ41L5DN4qcMnGiuthQTn7YN2kCAP081hyTNGu2XRPvX/mnHhv4Zhe+MgTPsPDQr3w3P9mI25byjpWAQDAsIsH9xjpJzP3Q7bY/ViSpEa3SrwPCp/lwhC33/kHp3PLKwDdR3g4sJiT7GcbYAxIMXJ0ZFvh8fK157JR14mRxBNDbyNvZUKvmWajuCZ6W9FNpSCgCcjf82UqIvI+EJq7pfP+3n0LbwioiOcLQUlvS9kW0TwVAXGIaCvtl/CC4GPhjZMYIwzreLmVuTefyFaTRs8Qj25XCbUyLzu5OPygm16qLT8lTCFr3egq0uphMcVpHtFQsZDc/qnW"
+  },
+  "published_at": "2026-11-22T22:20:53Z",
+  "status": "stable"
+}
