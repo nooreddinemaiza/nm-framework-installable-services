@@ -1,0 +1,40 @@
+{
+  "manifest_version": 1,
+  "id": "sales-service",
+  "name": "Gestion des ventes",
+  "description": "Service ventes: applications clientes, cles d'acces, connecteurs, paniers, commandes, paiements et interface boutique.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "dom",
+    "json"
+  ],
+  "dependencies": [
+    "inventory-service"
+  ],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": true,
+    "resources": true
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/sales-service-v1.0.0/sales-service-1.0.0.zip",
+    "sha256": "e05f4809c8a3780a8f52494cf9ff7641b2fb7416d91b6718253a58a6631d40a3",
+    "key_id": "hello-release-2026",
+    "signature": "tyU+ksJAu2oSsq7KL2/nY3TvAtfP3Dl+vbR9yIiAZtM6WMiJNLuyGGIXosPURevnuwrqtZRgxsxFyZFoNFHfP90DhgVYBi3T3ooYOUDg3cKyileH28rR3AjYFonP9Gvaajs76ZzpSfhqUmDZWvMkVZjze3dA6FZ80QpY46gPx1e4Wh/BZNRx8JhS/EW7dsJcJKtvavib6TAjMni0ztW1vf30uzkAYx1ilyH95E0A12XWECFpXKXUGkdJelW04VPPZxtIGErzuuyY/mpspz1QRwbnv0VDFyV7qQ0eqOe4ytWjJChiDsr0knJBovEzG1QA0jHYarzfgcbxx3BNhuc0QT3ZPkYxXYzX8G7jPQPnZsRkPZlKW3CiLTqLEs7If3SSFGvwzzKq8RTSBvEtcRzNecD0PjEnWVBKPNZ0h8D/p1hGnb/m6yFNqv5yK1njzC3+OT4QPBAygyVNUF7FX/LZ7KwSibgzah4YE2YWzUGk8jaa0kPiW7Tbaq4x2wqAMk3L"
+  },
+  "published_at": "2026-11-22T22:13:56Z",
+  "status": "stable"
+}
