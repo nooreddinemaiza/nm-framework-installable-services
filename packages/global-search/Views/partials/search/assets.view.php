@@ -1,0 +1,5 @@
+@cdn('styles', '/dashboard/service-assets/global-search/search.css')
+@cdn('scripts', '/dashboard/service-assets/global-search/search.js')
+@metaLink('preconnect', 'https://fonts.googleapis.com')
+@metaLink('preconnect', 'https://fonts.gstatic.com', ['crossorigin' => true])
+@cdn('styles', 'https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&display=swap')
