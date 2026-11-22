@@ -1,0 +1,35 @@
+{
+  "manifest_version": 1,
+  "id": "translation",
+  "name": "Translation",
+  "description": "Visitor language selection and French and Moroccan Arabic interface translations.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": false,
+    "views": true,
+    "config": false,
+    "resources": true
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/translation-v1.0.0/translation-1.0.0.zip",
+    "sha256": "8f84123dba05b460f1b780b54a5dd6a4bf96be3c6fa7495d163af6241485263e",
+    "key_id": "hello-release-2026",
+    "signature": "apoyx6qZurs6WLjVTln9NOBs6tZCz9404Da1c1yTH0kgIQVdgbzpfUggl85Bz7NxTLzo1OrIyDqtIvao0cKugPZxZqHbXJmUo7zzt6YOYcGIGfFbKAYJimSgNzss9syy3scvJkD6dbHsLH8J44WgPddW/x+VGG+Gk0rNeOYeG1yOGrVaTpTOWJd9D7/+FcbEnoTseiu8Fj3aSLsAj2rWhn04AhVg1Y3T5M76LJKlsl5Pqht+cjnpUZ6WemSff5zvF85iYK0VFeyKZYbO3QIY7h/DGlVG/CmveYRUqdzN+PEzCnKvanMDJDM6TLnQqMQW6OTV9BoU+vhtKoHqmxtVI0AuqNwgv2a2l3dHrt/oS4M0WAn7gD/t1ATtZr4E0BnCIOK+rCHPnm9hJQaGQ2XokRpGd1rmFClHG30nVhley2peHMWnK7l1ObHkprrfAvrC2Toj4l2YflhBeys4WVSD03fPTUpjRWNP6bozfSiMMBva0fn3DwIUJce6actfwT0W"
+  },
+  "published_at": "2026-11-22T22:26:27Z",
+  "status": "stable"
+}
