@@ -1,0 +1,32 @@
+{
+  "package_format": 1,
+  "id": "online-payments",
+  "name": "Paiements en ligne",
+  "description": "Gestion des fournisseurs de paiement, tentatives, notifications, rapprochements et remboursements.",
+  "version": "1.0.0",
+  "author": "nooreddinemaiza",
+  "namespace": "NM\\Services\\OnlinePayments",
+  "provider": "NM\\Services\\OnlinePayments\\Providers\\OnlinePaymentsServiceProvider",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "openssl",
+    "json"
+  ],
+  "dependencies": [
+    "sales-service"
+  ],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": false
+  }
+}
