@@ -1,0 +1,38 @@
+{
+  "manifest_version": 1,
+  "id": "articles",
+  "name": "Articles",
+  "description": "Gestion d’articles publics, catégories, statistiques de consultation et interface d’administration.",
+  "author": "nooreddinemaiza",
+  "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
+  "version": "1.0.0",
+  "framework": {
+    "min_version": "3.0.1",
+    "max_version": null
+  },
+  "php": {
+    "min": "8.3",
+    "max": null
+  },
+  "extensions": [
+    "dom",
+    "json"
+  ],
+  "dependencies": [],
+  "components": {
+    "routes": true,
+    "migrations": true,
+    "views": true,
+    "config": false,
+    "resources": true
+  },
+  "package": {
+    "type": "zip",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/articles-v1.0.0/articles-1.0.0.zip",
+    "sha256": "2f0a3688ea516318053eff0bb6ca105eb414a3ae9ae43cbd7ef19eda31dfc8ed",
+    "key_id": "hello-release-2026",
+    "signature": "kBole91QvyOywRSOCRDGlRWtgZ7n17RsAabr8SwWCKSz/96NT7am0uFZIV3GKZToL2tWusxuSrpFwS7TNPucWmsRk6OfDxIGyV0I/OK13KNot4/1QyQmZFvL+01fX5FNh42SNZyav2OPCFr+ZoxHq3xfUid1Zc42vF32jaOZ2UgmQ8oYVahU2YWJ7xGCs9F/2si65mREoo+Hz3sJNZ8CbzOh0v4lZ2cSrZFXoTZ0maJJg2BYPcNAN0nQYK44ITYDQW1CBFguxyD0Szt0/81DXiAHKs6kZFM7nCyd2gpx2UfA7IbfyjvU7RPM0zZYP0rpOkH4JI5CyaHO4Sju1T7eIWRLTNiAwKAOylUBDW2sna4Hr8p+o8enfgipe6stZtlOy+YhKGGLPT/l882b4R/at9nZfwtN96LQdv/SheIAoSl5iIAq1qReVRxYOcKKeoB241bTkBzGGDJmGnSRWmWJbNIMYC/027/Ms+oYBoy4Yd7i8zCSWvio/mrE4JzZY0qI"
+  },
+  "published_at": "2026-11-22T22:19:44Z",
+  "status": "stable"
+}
