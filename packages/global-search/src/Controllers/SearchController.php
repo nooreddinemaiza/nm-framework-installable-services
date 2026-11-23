@@ -14,6 +14,9 @@ use Core\Http\SessionInterface;
 use Core\Security\CsrfTokenManager;
 use Core\View\ViewFactory;
 use NM\Services\GlobalSearch\Search\GlobalSearchService;
+use NM\Services\GlobalSearch\Search\SearchRegistry;
+use NM\Services\GlobalSearch\Services\GlobalSearchState;
+use Throwable;
 
 final class SearchController extends Controller
 {
@@ -21,7 +24,50 @@ final class SearchController extends Controller
         private readonly GlobalSearchService $search,
         private readonly ViewFactory $factory,
         private readonly SessionInterface $session,
+        private readonly GlobalSearchState $serviceState,
     ) {
+    }
+
+    public function saveConfiguration(Request $request): Response
+    {
+        $this->requireSuperAdmin();
+        $this->register_csrf($this->session);
+
+        try {
+            $this->serviceState->assertEnabled();
+            $validated = $this->validatePost(
+                data: $request->request->all(),
+                only: ['public_types', 'dashboard_types', self::TOKEN_NAME],
+                rules: [
+                    'public_types' => 'nullable|string|max:512|no_sql|no_html',
+                    'dashboard_types' => 'nullable|string|max:512|no_sql|no_html',
+                    self::TOKEN_NAME => 'required',
+                ],
+            );
+            $publicTypes = array_values(array_filter(
+                explode(',', (string) ($validated['public_types'] ?? '')),
+                static fn(string $type): bool => $type !== ''
+            ));
+            $dashboardTypes = array_values(array_filter(
+                explode(',', (string) ($validated['dashboard_types'] ?? '')),
+                static fn(string $type): bool => $type !== ''
+            ));
+            if (
+                array_diff($publicTypes, array_keys(SearchRegistry::all('public'))) !== []
+                || array_diff($dashboardTypes, array_keys(SearchRegistry::all('dashboard'))) !== []
+            ) {
+                throw new \InvalidArgumentException('La sélection des contenus à rechercher est invalide.');
+            }
+
+            $this->search->saveConfiguration($publicTypes, $dashboardTypes);
+            $this->session->addFlash('message', 'La configuration de la recherche globale a été enregistrée.');
+            $this->session->addFlash('alertVariant', 'success');
+        } catch (Throwable $exception) {
+            $this->session->addFlash('message', $exception->getMessage());
+            $this->session->addFlash('alertVariant', 'danger');
+        }
+
+        return Response::redirect('/dashboard/settings/services');
     }
 
     public function publicApi(Request $request): Response
@@ -151,6 +197,17 @@ final class SearchController extends Controller
             || !$user->is_active()
             || (!$user->isSuper() && $user->highestRoleLevel() < User::MODERATOR_LEVEL)
         ) {
+            throw new NotFoundHttpException();
+        }
+
+        return $user;
+    }
+
+    private function requireSuperAdmin(): User
+    {
+        $userId = $this->session->getUserId();
+        $user = $userId === null ? null : User::find($userId);
+        if (!$user instanceof User || !$user->is_active() || !$user->isSuper()) {
             throw new NotFoundHttpException();
         }
 
