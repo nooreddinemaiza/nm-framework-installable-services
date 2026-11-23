@@ -5,17 +5,26 @@ use Core\Filesystem\FileInterface;
 use Core\Http\Request;
 use Core\Http\Response;
 use Core\Middleware\AuthMiddleware;
+use Core\Middleware\CsrfMiddleware;
 use Core\Routing\Router;
 use Core\Services\IndependentServiceRegistry;
 use Core\Support\Asset\AssetManager;
 use NM\Services\GlobalSearch\Controllers\SearchController;
 use NM\Services\GlobalSearch\Search\GlobalSearchService;
+use NM\Services\GlobalSearch\Services\GlobalSearchState;
 
 $resolveController = static fn(): SearchController => new SearchController(
     app()->get(GlobalSearchService::class),
     app()->viewFactory(),
-    app()->session()
+    app()->session(),
+    app()->get(GlobalSearchState::class),
 );
+
+$router->middleware([
+    AuthMiddleware::class,
+    'access:' . User::MODERATOR_LEVEL,
+    CsrfMiddleware::class,
+])->post('/dashboard/settings/services/search', fn(Request $request) => $resolveController()->saveConfiguration($request));
 
 $router->get('/api/search', fn(Request $request) => $resolveController()->publicApi($request));
 $router->get('/search/results', fn() => $resolveController()->publicResults());
@@ -43,7 +52,7 @@ $router->get('/dashboard/service-assets/global-search/{filename}', static functi
     }
     app()->get(FileInterface::class)->setPath(
         'global-search-service-assets',
-        $resources . DIRECTORY_SEPARATOR . $extension
+        $resources . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . $extension
     );
 
     return app()->get(AssetManager::class)->respond($request, 'global-search-service-assets', $filename);
