@@ -13,8 +13,9 @@ Routes publiques : `/api/search` et `/search/results`. Routes du tableau de
 bord : `/dashboard/search/api` et `/dashboard/search/results`. Les styles et
 scripts du service sont servis depuis son propre paquet.
 
-La page Services du framework hôte reste responsable de la sauvegarde de la
-configuration public/tableau de bord.
+Quand le paquet est actif, sa configuration public/tableau de bord est
+accessible depuis sa carte dans Paramètres → Services installables. Le paquet
+fournit lui-même la modal et la route de sauvegarde.
 
 La migration réutilise la table `global_search_settings` déjà créée par
 l’application hôte lorsqu’elle existe et vérifie que son schéma est compatible.
