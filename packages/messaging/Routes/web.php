@@ -87,7 +87,7 @@ $router->get('/dashboard/service-assets/messaging/{filename}', static function (
 
     app()->get(FileInterface::class)->setPath(
         'messaging-service-assets',
-        $resources . DIRECTORY_SEPARATOR . 'scripts'
+        $resources . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . 'scripts'
     );
 
     return app()->get(AssetManager::class)->respond($request, 'messaging-service-assets', $filename);
