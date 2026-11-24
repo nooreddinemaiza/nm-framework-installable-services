@@ -5,7 +5,7 @@
   "description": "Conversations privées et de groupe, messages, accusés de lecture, politiques et médias.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -28,11 +28,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/messaging-v1.0.0/messaging-1.0.0.zip",
-    "sha256": "a912cb8f1fd08b399b1adf00e3e5dee6e385be73525dda11dfec98c360939c45",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/messaging-v1.0.1/messaging-1.0.1.zip",
+    "sha256": "e959d95dbf90c4b7d48d97ba5cb74a8c771f2a79dfabe171e187e7675655fca9",
     "key_id": "hello-release-2026",
-    "signature": "NNmk3DKEE4fa3NeIeaaLCsFAqjAg29uCCvCmCvQOhTV47KrGPWVO9u1DiJTtWWTC6qnY3sUhEVljbfkNWFZsso3IeMfWDTFGEXM9Iqrmi9ZceF9lXYqGopAtv9tntXHss9o/X5GP2H/m98UXTRAuYcMq8dTDejAabfgT3uIWYVpoGNYVRq3B1UtgDFVNeDI9pj87DGqCTdcaEDHO0avPQhjqKketHWnNcs9G2vJrw5i7Tz96EdWBfbLeH4G6OunrYZR8jZiJ4ddZMtbd/+Q3qmfUhpmERfoJg4Qi/MgyhvJlDPbc4fkfPRaaHAp3/H+xRAC2Y4q460HpKy/AHe8x3UMIK7sNUhDn3yMdq0TZn9+VYtn+Mqs96i8ymwDLxk/aFDdnQS9r5UoH/wtNQJC39joW0ASbdRWJWBrHCm8n/T7wBtTq/DrdJLA6UVzwo7oQt78nY/ng0+Mw1oAZ6e2h9Dq8RwmYtY/713B7j5lcZKmy2rcJmjPBDXpV1u4JP1/4"
+    "signature": "FZkkFn9mH/WyiHj/lb0L/v7e72oUEtf7EjXeNdyMCq4L5nt3JvBH0ezah2qw6F5DQFNxwruYraSbz9NKPiSWSA96l9PycvxQkymaSsgahjIT5Kx6UhktQ8jmID/KE3IpJI4GoP6prsPSFxgkBWl/g9JhW4DzXVE8zRrkwzNpXjap0X7P56446+vhNM9kSLC7Qj+P+ahS0xtjKdDtbhxUMQuXyTMGPGuzK3YXWsoZgszHtkZrYlcZGtSw+N+WBiAixq+kpMuJi/QuapQvNiR5tp96HA5zg48iCDGIE1HF5LdsEX7g3JTr1k1cLQuFxfma5cEBq2C+o5pwNiNuoGH3ghYvOrmRmLn5Z27y/Wg0MOJ+EZOTuNkeJuZ7JNPfXL+++CvfTHU53AYKLrufTd8otHN3Cvt6EvoMv0EFDl8x61RkwlFFMOZURouoEyuvDS7Tfs7mfpTJ6J03zKxLsEqY7yeiNCslNlKWsofBY6Xi03XjUVDQiOtgfDhP2pkiAIkp"
   },
-  "published_at": "2026-11-22T22:23:27Z",
+  "published_at": "2026-11-24T15:53:03Z",
   "status": "stable"
 }
