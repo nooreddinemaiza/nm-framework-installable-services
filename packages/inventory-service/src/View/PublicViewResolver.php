@@ -18,7 +18,7 @@ final class PublicViewResolver
         }
 
         $variants = [
-            'public.catalog.product' => 'public.catalog.product-v1',
+            'public.catalog.product' => 'views.public.catalog.product-v1',
         ];
 
         return $variants[$view] ?? $view;
