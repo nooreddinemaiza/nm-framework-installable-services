@@ -5,7 +5,7 @@
   "description": "Catalogue produits, stocks, inventaire, réservations et réductions commerciales.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -28,11 +28,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/inventory-service-v1.0.1/inventory-service-1.0.1.zip",
-    "sha256": "3b4c071db1fa3446a1d0bb39f87322fb012b72319b64fe38f9cb9bbb05bb6b98",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/inventory-service-v1.0.2/inventory-service-1.0.2.zip",
+    "sha256": "9dfaad98b427708b3f742b21cbb8ac26d747bef9f519fd37f0aa1e41aa1e7778",
     "key_id": "hello-release-2026",
-    "signature": "ufVIuUb5Y8/Xb3Alz2xd9qE4OP8tu6k3PPDGzuNx/LPfee3iD+WgsoBH3BHu1rYYXXcVYfljmAUIB3QpxWzCXHSSq0ZzotByvLJJakUj+mM7RdHV7KOAJiDO5sfbDul1sBVdQ2I+xZSKxTlld2Uj/rRUt5/kcNoVR1vH8dBNgp3A1z5Hu2q5DEweYnZ3P5fJY33XHgVa+TR3ULbPuVyOjPemkzQfxwne/NiIDmxnx6C8+r//SZMhAZOE8dIfw+tMbWKkDM1GetVXKoSLQvFiKGqM9cPQjMUc650onpk7wDnzB/YzioNDb/qg00MYk1KlJGfI0VKNWIGHGf3k5quTnMwfyebTFhi+cObaw62rVZUjCCm1eg3xk65nPcDgKgvsTnK74VeO5wPa4P/+yD7QOG+Hzziq960Njyd2tDeS1IPBD9GpPam842BxV7QvOEKW3tRc4+yMbEX7YFEQGYjVmEnj6Rb13zhMVStSUTM9V6+DtsHNpyjZPqHvEInQbG6q"
+    "signature": "eEwDbWqXnFXZM2iqGv2yrE/AO8aRwUhVSxmJZZZ14AKUdSOsCL0sArJgZPwnaJlrgjSzMF90bu2rlUBeBO5uSZZ1fNNwVySw/0/US03dtRxmBah0zjipRlNlIp/tbNyiQqtYK5XBtFjYyoutURWs6dNbDTtjMMFc5zyqa3kUSTMad4cnu4fBK8o64ZnEDagiw/s8hQct8lSCJ+qj10bfduIDSOosCF4VGP70TBCBIgBCSD6KW+TnnP7Kb0xZEMmZvkwz3eF0vRU/ULF/cBnmNWnvQUTZt0Yiq9vF7BrdqtlXxSSlGc1j+Q93f4Au0DAW2PTmfhz+LtI8m290VwJICupTK3KY1bvWW4gllUo9FXKO7NBbQq14hraqS9/AwZvdXRPxOovmBNcNzzXY6W3oSnhLkqkFkN0EgkRl3oh/pmzVFoG3Cef3vO3LeAQyoiMRDq0RNHxDTWVat5bEqX3MopXW7u6mHveMe7PhzfVGSHYZvt0WCgFZTHmNHckUOPcD"
   },
-  "published_at": "2026-11-24T16:47:57Z",
+  "published_at": "2026-11-24T16:57:18Z",
   "status": "stable"
 }
