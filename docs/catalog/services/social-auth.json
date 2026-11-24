@@ -5,7 +5,7 @@
   "description": "Connexion OAuth avec Google, Microsoft, GitHub et Facebook, avec association explicite aux comptes locaux.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -24,16 +24,16 @@
     "routes": true,
     "migrations": true,
     "views": true,
-    "config": false,
+    "config": true,
     "resources": false
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/social-auth-v1.0.0/social-auth-1.0.0.zip",
-    "sha256": "e8fe6d2469d7c930754b38395297669815ae57888528830d81a63005c10024da",
-    "key_id": "hello-release-2026",
-    "signature": "ywmri9RIpVDPXpfpb2U7ClwgdqPQuJ7xvA6rYJStfJLTvtvsHP6EmuSxSkqhRZcU0f/fY8ToqikP1hQugthZx3PKDBC7mMqCkEA0quTBp3sYEuVqECHvJIYQ4y5E+7Wj8OeWZUYT0JAiS+Uk0RsiMrgj4F/mjC18LRIMOLK1ILYh28ydJx2H8fwvSXRXSDxXh0MRDnHwqXdikTIyYqj00zT/Uy2Lbc9+wVo4FizbM1YQfcD9go4aecjENFpr3G0FcIaeqIfHRAvYklPxk+7W5ZJLWxOBYqnj+7gseWOjdHlGu0ZmU7gRwgoz/pisUbHPCYXZBt693chDyrCxD+0KNDqyd0YqpnfjrmyGu1Gm29amoBg3FQSkrkdF5pAUla1aCv+dFswsJjVvHPW+I6qJfePnT2cfiqN0UICWsj+SAfayZpPa9YWNYhoml6TAdwVYwrnKYLyYHMZVcrK0y2Y/jQguqZbUEqVIl6j4DOuRF0Kvcs/7G1DKk02IoPsyfB01"
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/social-auth-v1.0.1/social-auth-1.0.1.zip",
+    "sha256": "36284accc9b7934f2fced08c420f61bf524455f96fb6fbc1c6784dd77f545e0b",
+    "key_id": "social-auth-release",
+    "signature": "IEIk2cLqeu5GbsSJmo3Iz2iyrFLnEYv1zV4SofUWqRPaop9VO8JzlRmBwhjfXDMT6XqcY2/21iNM24KE1uuCo+bAyu+M+1Hn0HbpaQtmwP7H8WYcm4Se5njliG5uyV8I7w7zYibwQdjlry8WzOiScvzmGi9Hn1hBEGZ/LY8fciNbVGZcYaLN3TBzm/PhNBsSfrXvrHlRGDcOngKl5UDgp/1BhRIZGsJy+GQBeImxP/HlukYsvIO6GHCVMwjuzIAj7dWl9mizqtPxr36wwgTB7JtjfN2GC+2Qs3JkYCJrySqt1K0WSYThLTbw0Xi1TfUqaB7PDUjXveap3oG4TGgpRsYn09kPeHDDcdlvhkJVxB47f3yc4nC5LaXxiRPFTe/ORLgSVqEnqD9aU4yC/pa9qTuQW9X5JRe9jGVdKK/z3dsmsSxLAIqnM6fExQwkUaDv9MLPmE0kf70i2apc8pfOo3NXbxom5DtDvSK0xJ55DKIH5xii1X9bRuI/Rj2P23ET"
   },
-  "published_at": "2026-11-22T22:24:52Z",
+  "published_at": "2026-11-24T22:24:23Z",
   "status": "stable"
 }
