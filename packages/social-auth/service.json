@@ -3,7 +3,7 @@
   "id": "social-auth",
   "name": "Authentification sociale",
   "description": "Connexion OAuth avec Google, Microsoft, GitHub et Facebook, avec association explicite aux comptes locaux.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nooreddinemaiza",
   "namespace": "NM\\Services\\SocialAuth",
   "provider": "NM\\Services\\SocialAuth\\Providers\\SocialAuthServiceProvider",
@@ -25,7 +25,7 @@
     "routes": true,
     "migrations": true,
     "views": true,
-    "config": false,
+    "config": true,
     "resources": false
   }
 }
