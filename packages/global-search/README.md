@@ -17,10 +17,9 @@ Quand le paquet est actif, sa configuration public/tableau de bord est
 accessible depuis sa carte dans Paramètres → Services installables. Le paquet
 fournit lui-même la modal et la route de sauvegarde.
 
-La migration réutilise la table `global_search_settings` déjà créée par
-l’application hôte lorsqu’elle existe et vérifie que son schéma est compatible.
-Dans le cas contraire, le paquet la crée et garde une marque de propriété afin
-que son retour arrière ne supprime pas une table gérée par l’hôte.
+La table `global_search_settings` est créée par la migration du paquet, et non
+par les migrations hôtes. Si une ancienne installation possède déjà cette
+table, la migration vérifie son schéma et son retour arrière la conserve.
 
 Vérifier la structure :
 
