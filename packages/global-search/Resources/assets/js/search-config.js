@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     var configPanel = document.querySelector('[aria-labelledby="search-configuration-title"]');
     var openButton = document.querySelector('[data-search-config]');
-    if (!configPanel || !openButton) return;
+    if (!configPanel) return;
 
     var form = configPanel.querySelector('[data-search-config-form]');
+    if (!form) return;
     var search = configPanel.querySelector('[data-search-config-search]');
     var scopes = Array.from(configPanel.querySelectorAll('[data-search-config-scope]'));
     var initialValues = new Map();
@@ -103,11 +104,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     if (search) search.addEventListener('input', updateVisibility);
-    openButton.addEventListener('click', function () {
-        window.setTimeout(function () {
-            if (search) search.focus();
-        }, 0);
-    });
+    if (openButton) {
+        openButton.addEventListener('click', function () {
+            window.setTimeout(function () {
+                if (search) search.focus();
+            }, 0);
+        });
+    }
 
     form.addEventListener('submit', function () {
         scopes.forEach(function (scope) {
