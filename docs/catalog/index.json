@@ -1,0 +1,54 @@
+{
+  "catalog_version": 36,
+  "updated_at": "2026-11-25T20:19:46Z",
+  "services": [
+    {
+      "id": "articles",
+      "manifest": "catalog/services/articles.json"
+    },
+    {
+      "id": "cash-register",
+      "manifest": "catalog/services/cash-register.json"
+    },
+    {
+      "id": "global-search",
+      "manifest": "catalog/services/global-search.json"
+    },
+    {
+      "id": "hello-world",
+      "manifest": "catalog/services/hello-world.json"
+    },
+    {
+      "id": "inventory-service",
+      "manifest": "catalog/services/inventory-service.json"
+    },
+    {
+      "id": "messaging",
+      "manifest": "catalog/services/messaging.json"
+    },
+    {
+      "id": "online-payments",
+      "manifest": "catalog/services/online-payments.json"
+    },
+    {
+      "id": "page-management",
+      "manifest": "catalog/services/page-management.json"
+    },
+    {
+      "id": "quotes",
+      "manifest": "catalog/services/quotes.json"
+    },
+    {
+      "id": "sales-service",
+      "manifest": "catalog/services/sales-service.json"
+    },
+    {
+      "id": "social-auth",
+      "manifest": "catalog/services/social-auth.json"
+    },
+    {
+      "id": "translation",
+      "manifest": "catalog/services/translation.json"
+    }
+  ]
+}
