@@ -35,6 +35,7 @@ use NM\Services\InventoryService\Inventory\InventoryProductUsageChecker;
 use NM\Services\InventoryService\Inventory\InventoryReservationService;
 use NM\Services\InventoryService\Inventory\InventoryStockService;
 use NM\Services\InventoryService\Inventory\InventoryTransactionBoundary;
+use NM\Services\InventoryService\Services\InventoryServiceState;
 
 final class InventoryServiceServiceProvider extends AbstractServiceProvider
 {
@@ -181,5 +182,8 @@ final class InventoryServiceServiceProvider extends AbstractServiceProvider
                 $this->app()->get(DiscountService::class)
             );
         });
+        $this->singleton(InventoryServiceState::class, static fn(): InventoryServiceState => new InventoryServiceState(
+            $this->app()->get(\Core\Services\IndependentServiceRegistry::class)
+        ));
     }
 }
