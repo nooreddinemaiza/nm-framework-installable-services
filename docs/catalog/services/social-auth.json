@@ -5,7 +5,7 @@
   "description": "Connexion OAuth avec Google, Microsoft, GitHub et Facebook, avec association explicite aux comptes locaux.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -29,11 +29,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/social-auth-v1.0.1/social-auth-1.0.1.zip",
-    "sha256": "36284accc9b7934f2fced08c420f61bf524455f96fb6fbc1c6784dd77f545e0b",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/social-auth-v1.0.2/social-auth-1.0.2.zip",
+    "sha256": "544c4f2921ecb2a237b2e71c9f0a24c1979af9b2765cf233a46375b1fc4e8402",
     "key_id": "social-auth-release",
-    "signature": "IEIk2cLqeu5GbsSJmo3Iz2iyrFLnEYv1zV4SofUWqRPaop9VO8JzlRmBwhjfXDMT6XqcY2/21iNM24KE1uuCo+bAyu+M+1Hn0HbpaQtmwP7H8WYcm4Se5njliG5uyV8I7w7zYibwQdjlry8WzOiScvzmGi9Hn1hBEGZ/LY8fciNbVGZcYaLN3TBzm/PhNBsSfrXvrHlRGDcOngKl5UDgp/1BhRIZGsJy+GQBeImxP/HlukYsvIO6GHCVMwjuzIAj7dWl9mizqtPxr36wwgTB7JtjfN2GC+2Qs3JkYCJrySqt1K0WSYThLTbw0Xi1TfUqaB7PDUjXveap3oG4TGgpRsYn09kPeHDDcdlvhkJVxB47f3yc4nC5LaXxiRPFTe/ORLgSVqEnqD9aU4yC/pa9qTuQW9X5JRe9jGVdKK/z3dsmsSxLAIqnM6fExQwkUaDv9MLPmE0kf70i2apc8pfOo3NXbxom5DtDvSK0xJ55DKIH5xii1X9bRuI/Rj2P23ET"
+    "signature": "prqT5SrdsrYaciceQ3CKevj8DVer5PJM7tDwbVcXyowox5KzeZlbbgq+HsCQLQ1szCGb0UYGOBLfpozTJm08+Q+7Gods0hGLncSh2bYUKnpQwL/F+741pvhgY8XlGCTvYZfH5kqUX1P0qZapGFgR7VmVgLrSh4rZUqUgT9zcJs4aIOM8g0F7zk5xwMKYlpj9r8ex6Ii7CoQ+pxdHR3BMbBp+PIgzCAD7GcbQBleLzanstYLS9E8mtO7MSIbGPtJhMpvSbnkCLScAcScydBG4kUiQ+IVX3BLBs61wGxNqOxypyIsb4OxhBOcuOnzNRJqK1zLommFjZ+INOJoGVR66ZRI6uiB3l1vCp2SgWg+rntHhRBfK/8xRC6Ie1MEavpTUrFqORvQ1npygWdSSI4JbBovAOvOCSZWCHthLgA7i4orExT8lXzWaWE8BQcqpME4DTSKpIY97rAnzYGsixGzj0L0GsicT2sTHoBnJ4n9pB8D5GYi0aggmhVApb97fZHNm"
   },
-  "published_at": "2026-11-24T22:24:23Z",
+  "published_at": "2026-11-25T23:41:36Z",
   "status": "stable"
 }
