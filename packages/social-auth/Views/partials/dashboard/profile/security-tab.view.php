@@ -142,8 +142,11 @@ $auth2faAction = "/dashboard/account/securite/2fa/" . ($auth2fa ? 'disable' : 'e
         <x-container :reduiceable="false" size="xxl">
             <x-alert :passed="$emailVerified" variant="warning" :dismissible="false"
                 title="Votre e-mail n'est pas vérifié, vous devez le vérifier pour bien sécuriser votre compte">
+                @php
+                $mailEnabled = isset($mail_enabled) && $mail_enabled === true;
+                @endphp
                 <x-slot:components>
-                @if($mail_enabled)
+                    @if(i$mailEnabled)
                     <x-list :ordered="true" type="disc">
                         <x-slot:components>
                             Pour vérifier votre email, vous pouvez utilser lien de vérification envoyé à votre
