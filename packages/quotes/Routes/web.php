@@ -9,7 +9,10 @@ use Core\Middleware\CsrfMiddleware;
 use Core\Routing\Router;
 use Core\Services\IndependentServiceRegistry;
 use Core\Support\Asset\AssetManager;
+use Core\Services\Registry\IndependentServiceManager;
+use NM\Services\Quotes\Controllers\QuoteConfigurationController;
 use NM\Services\Quotes\Controllers\QuoteController;
+use NM\Services\Quotes\Quotes\QuoteConfigurationStore;
 use NM\Services\Quotes\Quotes\QuotePdfService;
 use NM\Services\Quotes\Quotes\QuoteRepository;
 use NM\Services\Quotes\Quotes\QuoteService;
@@ -23,6 +26,14 @@ $resolveController = static fn(bool $withView = false): QuoteController => new Q
     app()->get(QuoteServiceState::class),
     $withView ? app()->viewFactory() : null
 );
+$resolveConfigurationController = static fn(): QuoteConfigurationController => new QuoteConfigurationController(
+    app()->session(),
+    app()->get(QuoteConfigurationStore::class),
+    app()->get(IndependentServiceManager::class),
+);
+
+$router->middleware([AuthMiddleware::class, CsrfMiddleware::class])
+    ->post('/dashboard/quotes/configuration', fn(Request $request) => $resolveConfigurationController()->save($request));
 
 $router->prefix('dashboard/')
     ->middleware(['throthle:500', AuthMiddleware::class, 'access:' . User::MODERATOR_LEVEL])
