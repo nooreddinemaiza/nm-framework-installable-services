@@ -3,7 +3,7 @@
   "id": "quotes",
   "name": "Gestion des devis",
   "description": "Demandes publiques de devis, suivi commercial, historique et exports.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nooreddinemaiza",
   "namespace": "NM\\Services\\Quotes",
   "provider": "NM\\Services\\Quotes\\Providers\\QuotesServiceProvider",
