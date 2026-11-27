@@ -5,7 +5,7 @@
   "description": "Catalogue produits, stocks, inventaire, réservations et réductions commerciales.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -28,11 +28,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/inventory-service-v1.0.3/inventory-service-1.0.3.zip",
-    "sha256": "18c1b3f01129c6702fc392da191369475dbc037eb98d26986caf8ed2bbe5aa67",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/inventory-service-v1.0.4/inventory-service-1.0.4.zip",
+    "sha256": "4c7c1f7019a8b03345711fd08850b71dd8335596c98aba0988853a09e69b4a37",
     "key_id": "inventory-service-release",
-    "signature": "atzv+ctInWg0naDYS2dG8QpzpQl8QHbYp2M/Mfj+/W8LyfQx9Ntx13elJiFSaFkvbUXVPstTVXYzVuUHqMuVX9l3PAYJcI6n4vGgQRFz7gzxSssZdJZ63KkKOc9FmryixKPrCJqVLbcafujWlrY1gYrow2EKt7S1YU81jD2H9Ny35g5BZK8QwWBS3gOlXBBC0BaNDqqzbOvrdShvyHukG8ECF4gBgNvNg95z/r30yGoTlK1s4P5pruBU8IEwbR9RdvPcVElFWz0wYeXtn8JO0ZefOOJIqMBlX+ZV4I1DWNbpMwqs9lPZ5VLIEtkEXPVmOsGX4u86DtOmiMauvhwkgdYmn6m7/RpY6LeIHeffZUtPH90NojkHL5jVLCDi+KU//CZALk+7xgKWYbAcOAy5Ah2u3MOnYuqUjCxjF5w//Q2gukAAuzp7dvOGAA7xG7ldwdZLODgbSWadOB689C10dvh6jIC+fVHzrlm2Qqbg/ZQbwAnHnM/S1uc1cDEIp51I"
+    "signature": "nyopgDoagX+LygHHIjwSFqwgqdktM7hrcdT1NG8GxARjKTYWIlvgRMss9+/XJMXLb41NgwBMQ8FdmnlgZsWKVLmDv+dRpXaQj+kM2j15URJJ+P5UTknlsENKIZFkJip16bPPlb5wB0A3OwvIrG7c2hAWes+Xz/fvuDARtwsy2IMoW5U7noQ+Zwsi0NlPPAIhL62+8byItLK1nsxWomn/sDfR12qRxUgHYDttDDYVpEQFps6JQW41Z7B8etzPyQKsgZ3NwhpPPwIoc3Pt7R72H+5Ixv9Plhtvo2f6VWW2BDdZsMjNHN7QH7T4nhyRHn1ZrYcvGv7FgF5pWtdFoZm/FrcayYex0ynot3gRhvXgE6SrO21zjnMZHp/81ys8+UcS13fNjTadRlC6wjAaqwT1ycb28p0NBm3ztdfm9fQTB1iL/EkIFJN3g3w8kkhv+w1f0+9/8G0UXxf4BseSvMh9RJplZKMNsUl/y/UpSqpitre04TNCgoOwTOp2XLLaYVTn"
   },
-  "published_at": "2026-11-25T21:21:50Z",
+  "published_at": "2026-11-27T19:53:56Z",
   "status": "stable"
 }
