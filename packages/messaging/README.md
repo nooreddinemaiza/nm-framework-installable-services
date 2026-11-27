@@ -12,6 +12,10 @@ Le tableau de bord est disponible sous `/dashboard/conversations`. Les médias
 temporaires restent dans le stockage privé du framework; l’image de remplacement
 par défaut est incluse dans les ressources du paquet.
 
+La migration détecte les six tables de messagerie historiques déjà créées par
+le framework et les réutilise sans les recréer ni les supprimer lors d’un
+rollback. Un schéma partiel est signalé sans modifier les tables existantes.
+
 Vérifier la structure :
 
 ```powershell
