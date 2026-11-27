@@ -11,6 +11,9 @@ vues, scripts et migrations actuellement fournis par l’application.
 - PHP minimal : `8.3`
 
 Le paquet fournit ses bindings, sa configuration par défaut et ses migrations.
+Il fournit également le dialogue de configuration Inventory dans les paramètres
+des services installés (`/dashboard/inventory/configuration`) et dans sa page
+d’administration.
 Les pages publiques des produits, catégories et marques n’affichent le widget
 de demande de devis que lorsque le paquet optionnel `quotes` est actif. Ce
 dernier dépend d’`inventory-service` pour rechercher et valider les produits.
