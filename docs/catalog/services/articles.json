@@ -5,7 +5,7 @@
   "description": "Gestion d’articles publics, catégories, statistiques de consultation et interface d’administration.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -28,11 +28,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/articles-v1.0.0/articles-1.0.0.zip",
-    "sha256": "2f0a3688ea516318053eff0bb6ca105eb414a3ae9ae43cbd7ef19eda31dfc8ed",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/articles-v1.0.1/articles-1.0.1.zip",
+    "sha256": "de9977f5e4d138be3c7521fb10a18b0df172329647ed97117a0aed46b6733f9d",
     "key_id": "hello-release-2026",
-    "signature": "kBole91QvyOywRSOCRDGlRWtgZ7n17RsAabr8SwWCKSz/96NT7am0uFZIV3GKZToL2tWusxuSrpFwS7TNPucWmsRk6OfDxIGyV0I/OK13KNot4/1QyQmZFvL+01fX5FNh42SNZyav2OPCFr+ZoxHq3xfUid1Zc42vF32jaOZ2UgmQ8oYVahU2YWJ7xGCs9F/2si65mREoo+Hz3sJNZ8CbzOh0v4lZ2cSrZFXoTZ0maJJg2BYPcNAN0nQYK44ITYDQW1CBFguxyD0Szt0/81DXiAHKs6kZFM7nCyd2gpx2UfA7IbfyjvU7RPM0zZYP0rpOkH4JI5CyaHO4Sju1T7eIWRLTNiAwKAOylUBDW2sna4Hr8p+o8enfgipe6stZtlOy+YhKGGLPT/l882b4R/at9nZfwtN96LQdv/SheIAoSl5iIAq1qReVRxYOcKKeoB241bTkBzGGDJmGnSRWmWJbNIMYC/027/Ms+oYBoy4Yd7i8zCSWvio/mrE4JzZY0qI"
+    "signature": "RhILc0uLxt2lyt+jvAfghDcxBHCCl93JwTuGpSxuYGWKYUW78c40vOggI43EadNJkibOJwTT7SONXLJevf7nmZheDA6c3LebcNNZf/uInSkHP3pyzM9JtNo9z8jrREa23TGlsCljlFeQWCWssmqok1n76sP/4qIpEJ9H2IGr3WWo2MXG4q1KeFkWTxLncEp9MPPciuumeNrfkcHfH4vQljrncdrKTDkbTIFY2e6LWUj7SzZRrLm9zBpEECn6vzOqOcZjQFoCVyH03LH85XUI00zp6RwrJW4rza/7Sk/bR95J9uIvVPwMNN0sHNsR8HJ298dUd/bGnc+slr80wTd8H6TS/fTK/S0I8rujs/zl1vrq+ahjO/Opt7qKKxGFBXQGyTg9jz7FdUMIKPaoTfzGbZ0J24sgFqJ043jFqoxpEZR0OHrwklwFYsA4wIlMqeD5A8ncIsYnmo9etWSBdUYUMFte8nWRwbimkIOMXLlW1HGH0MzbOQJqmBJ9hUIhPhkF"
   },
-  "published_at": "2026-11-22T22:19:44Z",
+  "published_at": "2026-11-27T17:42:33Z",
   "status": "stable"
 }
