@@ -3,7 +3,7 @@
   "id": "articles",
   "name": "Articles",
   "description": "Gestion d’articles publics, catégories, statistiques de consultation et interface d’administration.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nooreddinemaiza",
   "namespace": "NM\\Services\\Articles",
   "provider": "NM\\Services\\Articles\\Providers\\ArticlesServiceProvider",
