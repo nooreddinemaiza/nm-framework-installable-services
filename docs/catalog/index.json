@@ -1,6 +1,6 @@
 {
-  "catalog_version": 42,
-  "updated_at": "2026-11-27T20:06:44Z",
+  "catalog_version": 43,
+  "updated_at": "2026-11-27T20:07:50Z",
   "services": [
     {
       "id": "articles",
