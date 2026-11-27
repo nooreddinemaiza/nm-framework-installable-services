@@ -146,7 +146,7 @@ $auth2faAction = "/dashboard/account/securite/2fa/" . ($auth2fa ? 'disable' : 'e
                 $mailEnabled = isset($mail_enabled) && $mail_enabled === true;
                 @endphp
                 <x-slot:components>
-                    @if(i$mailEnabled)
+                    @if($mailEnabled)
                     <x-list :ordered="true" type="disc">
                         <x-slot:components>
                             Pour vérifier votre email, vous pouvez utilser lien de vérification envoyé à votre
