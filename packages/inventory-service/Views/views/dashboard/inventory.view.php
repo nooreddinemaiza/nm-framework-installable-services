@@ -868,7 +868,7 @@ $tableEnd = static function (): void {
 
                     <?php if ($hasConfig): ?>
                         <?php $inventory_configuration_return = 'inventory'; ?>
-                        @include('partials.dashboard.services.inventory-configuration')
+                        @include('partials.dashboard.service-configurations.inventory-service')
                     <?php endif; ?>
 
                     <script>
