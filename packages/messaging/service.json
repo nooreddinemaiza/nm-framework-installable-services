@@ -3,7 +3,7 @@
   "id": "messaging",
   "name": "Messaging",
   "description": "Conversations privées et de groupe, messages, accusés de lecture, politiques et médias.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "nooreddinemaiza",
   "namespace": "NM\\Services\\Messaging",
   "provider": "NM\\Services\\Messaging\\Providers\\MessagingServiceProvider",
