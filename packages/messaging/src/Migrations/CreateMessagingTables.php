@@ -7,6 +7,7 @@ namespace NM\Services\Messaging\Migrations;
 use Core\Database\Schema\Blueprint;
 use Core\Database\Schema\Migration;
 use Core\Database\Schema\SchemaBuilderInterface;
+use RuntimeException;
 
 /**
  * Messagerie : conversations (privées / de groupe), participants, messages,
@@ -17,8 +18,33 @@ use Core\Database\Schema\SchemaBuilderInterface;
  */
 final class CreateMessagingTables extends Migration
 {
+    private const TABLES = [
+        'conversations',
+        'conversation_user',
+        'messages',
+        'conversation_message_receipts',
+        'conversation_role_policies',
+        'conversation_group_policies',
+    ];
+
+    private const OWNERSHIP_TABLE = 'messaging_service_migration_ownership';
+
     public function up(SchemaBuilderInterface $schema): void
     {
+        $existingTables = array_values(array_filter(
+            self::TABLES,
+            static fn(string $table): bool => $schema->hasTable($table)
+        ));
+        if ($existingTables !== []) {
+            if (count($existingTables) !== count(self::TABLES)) {
+                throw new RuntimeException(
+                    'Le schéma de messagerie est partiel; aucune table existante n’a été modifiée.'
+                );
+            }
+
+            return;
+        }
+
         // ── conversations ───────────────────────────────────────────────────
         $schema->create('conversations', function (Blueprint $table): void {
             $table->id()->unsigned();
@@ -146,15 +172,23 @@ final class CreateMessagingTables extends Migration
             $table->string('default_media_path', 255)->nullable();
             $table->timestamps();
         });
+        $schema->create(self::OWNERSHIP_TABLE, static function (Blueprint $table): void {
+            $table->id()->unsigned();
+        });
     }
 
     public function down(SchemaBuilderInterface $schema): void
     {
+        if (!$schema->hasTable(self::OWNERSHIP_TABLE)) {
+            return;
+        }
+
         $schema->dropIfExists('conversation_group_policies');
         $schema->dropIfExists('conversation_role_policies');
         $schema->dropIfExists('conversation_message_receipts');
         $schema->dropIfExists('messages');
         $schema->dropIfExists('conversation_user');
         $schema->dropIfExists('conversations');
+        $schema->drop(self::OWNERSHIP_TABLE);
     }
 }
