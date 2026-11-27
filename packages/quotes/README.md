@@ -15,8 +15,9 @@ recherche de produits sur `GET /api/quotes/catalog-search`. Le tableau de bord
 est exposé sur `/dashboard/quotes`.
 
 Les valeurs de configuration sont stockées sous `quotes.*` dans les paramètres
-du framework hôte; l’interface de configuration reste celle de la page Services
-de l’hôte.
+du framework hôte. Le dialogue, sa route de sauvegarde et la validation sont
+fournis par ce paquet (`POST /dashboard/quotes/configuration`); le tableau de
+bord hôte ne fait que l’inclure.
 
 La conversion d’un devis accepté en commande n’est pas implémentée par le
 service source actuel; elle doit être apportée par une intégration avec le
