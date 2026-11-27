@@ -44,6 +44,9 @@ $router->prefix('dashboard/')
                 $router->get('/data', fn(Request $request) => $dispatch(
                     static fn(ArticleController $controller) => $controller->data($request)
                 ));
+                $router->middleware(CsrfMiddleware::class)->post('/configuration', fn(Request $request) => $dispatch(
+                    static fn(ArticleController $controller) => $controller->saveConfiguration($request)
+                ));
                 $router->get('/{id}/data', fn(Request $request, string $id) => $dispatch(
                     static fn(ArticleController $controller) => $controller->articleData((int) $id)
                 ));
