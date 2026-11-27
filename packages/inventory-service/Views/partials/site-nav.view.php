@@ -21,7 +21,7 @@ $publicNav = \App\Helpers\NavbarFactory::publicNavbar($active ?? '', $elements ?
                         <span
                             class="min-w-0 truncate"><?= htmlspecialchars($appName, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></span>
                     </a>
-                    @if($global_search_enabled ?? false)
+                    @if($global_search_enabled)
                     <button type="button" data-search-open-proxy data-search-scope="public" aria-label="Rechercher"
                         aria-haspopup="dialog" aria-controls="global-search-dialog"
                         class="relative grid h-9 w-9 shrink-0 place-items-center rounded-full text-slate-600 transition-colors hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff7a1a] dark:text-slate-300 dark:hover:bg-slate-800 md:hidden">
@@ -66,7 +66,7 @@ $publicNav = \App\Helpers\NavbarFactory::publicNavbar($active ?? '', $elements ?
                 </button>
                 @endif
 
-                @if($global_search_enabled)
+                @if($global_search_enabled ?? false)
                 <button type="button" data-search-open-proxy data-search-scope="public" aria-label="Rechercher"
                     aria-haspopup="dialog" aria-controls="global-search-dialog"
                     class="relative hidden h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-600 transition-colors hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff7a1a] dark:text-slate-300 dark:hover:bg-slate-800 md:inline-flex">
