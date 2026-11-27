@@ -3,7 +3,7 @@
   "id": "global-search",
   "name": "Global Search",
   "description": "Recherche unifiée dans les contenus publics et les données du tableau de bord.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "nooreddinemaiza",
   "namespace": "NM\\Services\\GlobalSearch",
   "provider": "NM\\Services\\GlobalSearch\\Providers\\GlobalSearchServiceProvider",
