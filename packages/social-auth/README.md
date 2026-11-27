@@ -16,8 +16,10 @@ explicite d’identités externes aux comptes locaux.
   vérifiés par le fournisseur.
 - L’authentification locale à deux facteurs reste requise après le retour OAuth.
 
-Le framework hôte fournit l’authentification locale, le journal de connexion et
-la page d’administration des fournisseurs.
+Le framework hôte fournit l’authentification locale et le journal de connexion.
+Le paquet fournit lui-même le dialogue d’administration des fournisseurs et sa
+route de sauvegarde (`POST /dashboard/social-auth/configuration`); seuls les
+éléments de navigation et d’authentification partagés restent dans l’hôte.
 
 Routes OAuth : `/connexion/social/{provider}` et
 `/connexion/social/{provider}/callback`. Les associations de comptes sont
