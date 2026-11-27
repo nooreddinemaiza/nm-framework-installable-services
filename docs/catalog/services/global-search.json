@@ -5,7 +5,7 @@
   "description": "Recherche unifiée dans les contenus publics et les données du tableau de bord.",
   "author": "nooreddinemaiza",
   "repository": "https://github.com/nooreddinemaiza/nm-framework-installable-services",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "framework": {
     "min_version": "3.0.1",
     "max_version": null
@@ -27,11 +27,11 @@
   },
   "package": {
     "type": "zip",
-    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/global-search-v1.0.3/global-search-1.0.3.zip",
-    "sha256": "a81c6b498302adee9c8c9484e39a7a76d7fc09be49ba4d6a1ab0b905e9866734",
+    "url": "https://github.com/nooreddinemaiza/nm-framework-installable-services/releases/download/global-search-v1.0.4/global-search-1.0.4.zip",
+    "sha256": "db3eb2fb4e87e1c57397021884285e31695093446fae4e668f43e46135adf0de",
     "key_id": "hello-release-2026",
-    "signature": "qd5GpW0Q5TEFCBw7ie81/4Yu1wiQkoPPbPb2c7yhCweb+KbNS2DZFdeFLapYWdTKHYedYdwQy5++z88U8XjVZzFlZPi2j/6bDFSX8a405PQH2DiJzDmaObIS+K6WSMbpamNO9RqNsJZ6B0mNB28X+5w97IbRYgSP75SrnZnmtJ3xABxdSJPb2HzXGYoMxaIqs4fNDQRTUWMnrARaJmGFBH+uJ3tqYFoIrHXg/VQA1///j10m5QJunzrSFhRzc86wDauK/3Ibu4wsjvmscwh1D53dNF1En3b+83HWYnI+K7wDTUCZYM591NoyhGhwp0OY0LoyE1gG8VtO1xx3RDqTpCL9hdaakFq+W1MXijOuzSmO0UP+F9W01dTpuobDmEIL+rlyWGSdfgNUeRpjHcfz6FDsUsJiNhoB7hZA2rfekiOGutriV4iTZNqHHmZqSv+PJK0heSdiTX8Ok0woBFidU3GZh0MuYC9AkvGSLOxeUO0rX5qkPgsY6HVUjtsVzRO8"
+    "signature": "wGfW6TMcnd5y+/UFOuo1eIM1veakaaOomvwtwv8ruade45MWVXPNEnZ+2i7mZosCeMFeL0f21kKliMYRmi6HvotUhoKr5+nsQh/qNRZLOczSpbHkGtBq7Ddsgth9b28PPK5QiJWZLiN5TRgJExNpSIb5I59hPwknvDQ9WrALRmhazV494wNFsuP+nsxikmQBuOrFIR6tqo3Y+iqkNK5jM4T9xUiDqGAgpJF/flwrgBMQyCUFqH4WYsUJZbXqHQGTY19YqOh3pN7shoWS4B2gVHcMnngbtbTn6VQVSc6aD1Wd1TVWaeC29F7cXwZInYRMvAcL72t3OYfvPcl3LlvwVvM+JIx6GWexO+4ldSsCJWWJbiPhtNbBSrWwi9BdjIWFwXgsXHmYkoHQ0khsBj0n5P8CTH+edzu9HhklieJA9xIeIQMCW8TMl3ZWHHuraZybVIJazy9v7Ves7Bc6nvKxYmhDNs0yF74K8qG1uk+gKhrmx6qGaUiNUPMUQsBFpOS7"
   },
-  "published_at": "2026-11-24T14:55:09Z",
+  "published_at": "2026-11-27T20:07:02Z",
   "status": "stable"
 }
