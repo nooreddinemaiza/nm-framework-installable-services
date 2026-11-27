@@ -12,8 +12,10 @@ Routes publiques : `/articles` et `/articles/{slug}`. Le tableau de bord est
 disponible sur `/dashboard/articles`; la ressource d’administration est servie
 par le paquet.
 
-La page Services du framework hôte reste responsable de l’enregistrement des
-paramètres de configuration.
+Le package fournit son propre dialogue de configuration, son endpoint
+`/dashboard/articles/configuration` et le script associé. La page Services du
+framework découvre automatiquement les dialogues des services activés via
+`Views/partials/dashboard/service-configurations/<id>.view.php`.
 
 Vérifier la structure :
 
