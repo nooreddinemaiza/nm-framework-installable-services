@@ -182,7 +182,7 @@ final class InventoryServiceServiceProvider extends AbstractServiceProvider
                 $this->app()->get(DiscountService::class)
             );
         });
-        $this->singleton(InventoryServiceState::class, static fn(): InventoryServiceState => new InventoryServiceState(
+        $this->singleton(InventoryServiceState::class, fn(): InventoryServiceState => new InventoryServiceState(
             $this->app()->get(\Core\Services\IndependentServiceRegistry::class)
         ));
     }
