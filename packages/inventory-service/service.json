@@ -3,7 +3,7 @@
   "id": "inventory-service",
   "name": "Gestion des produits et des stocks",
   "description": "Catalogue produits, stocks, inventaire, réservations et réductions commerciales.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "nooreddinemaiza",
   "namespace": "NM\\Services\\InventoryService",
   "provider": "NM\\Services\\InventoryService\\Providers\\InventoryServiceServiceProvider",
